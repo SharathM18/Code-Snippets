@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+set -o pipefail
 
 echo ""
 echo "[ 1/4 ] isort — sorting imports..."
