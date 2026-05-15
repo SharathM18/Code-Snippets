@@ -30,7 +30,7 @@ uv run mypy src
 
 echo ""
 echo "[ 5/5 ] shellcheck - checking bash scripts..."
-shellcheck *.# shellcheck disable=all
+shellcheck *.sh
 
 echo ""
 echo "====== all checks completed ======"
